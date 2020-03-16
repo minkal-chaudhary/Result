@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>ActualService</servlet-name>
+<servlet-class>RequestServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ActualService</servlet-name>
+<url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+</web-app>
